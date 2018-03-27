@@ -11,10 +11,12 @@ public class DragonAnimator : MonoBehaviour {
     }
 
     public void PlayAttackAnimation() {
+        StopWalkingAndRunningAnimations();
         TryChangingAnimationTo("Attack_1");
     }
 
     public void PlayDeadAnimation() {
+        StopWalkingAndRunningAnimations();
         TryChangingAnimationTo("Dead");
     }
 
