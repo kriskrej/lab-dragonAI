@@ -16,8 +16,4 @@ public class DragonAI : MonoBehaviour {
         }
 	}
 
-
-    void RestartLevel() {
-        Application.LoadLevel(Application.loadedLevel);
-    }
 }
