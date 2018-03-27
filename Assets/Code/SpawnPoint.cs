@@ -21,7 +21,6 @@ public class SpawnPoint : MonoBehaviour {
             return;
         }
         instance.player.transform.position = instance.transform.position;
-        instance.player.transform.rotation = instance.transform.rotation;
         instance.player.GetComponent<Rigidbody>().velocity = Vector3.zero;
     }
 }

@@ -10,9 +10,9 @@ public class DragonAI : MonoBehaviour {
 	}
 	
 	void Update () {
-	    if (Vector3.Distance(transform.position, player.transform.position) < 5f) {
+	    if (Vector3.Distance(transform.position, player.transform.position) < 10f) {
 	        dragonAnimator.PlayAttackAnimation();
-            Invoke("RestartLevel", 1);
+            EndGameUi.ShowTextAndQuit("YOU DIED");
         }
 	}
 
