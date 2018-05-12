@@ -79,7 +79,7 @@ GameObject:
   - component: {fileID: 11195350}
   - component: {fileID: 65553577543432662}
   m_Layer: 0
-  m_Name: Pf_SawTrap01
+  m_Name: SawTrap
   m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
