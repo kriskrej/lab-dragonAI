@@ -10,7 +10,7 @@ public class DragonAI : MonoBehaviour {
 	}
 	
 	void Update () {
-	    if (Vector3.Distance(transform.position, player.transform.position) < 10f) {
+	    if (Vector3.Distance(transform.position, player.transform.position) < 10) {
 	        dragonAnimator.PlayAttackAnimation();
             EndGameUi.ShowTextAndQuit("YOU DIED");
         }
